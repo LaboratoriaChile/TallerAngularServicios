@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { GeneratorComponent } from './generator/generator.component';
+import { VisualizerComponent } from './visualizer/visualizer.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GeneratorComponent,
+    VisualizerComponent
   ],
   imports: [
     BrowserModule,
